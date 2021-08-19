@@ -1,0 +1,323 @@
+/* Inter: a - t */
+/* Lexend: I */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@400;600;700&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Spartan;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: -1px;
+	background-color: rgba(0, 0, 0, 0.95);
+	background-color: #100e14;
+	color: #fff;
+	font-weight: 600;
+	margin-top: 17px;
+	/* position: relative; */
+}
+
+h2 {
+	font-size: 64px;
+	margin-bottom: 30px;
+	line-height: 1.1;
+}
+
+.sub-headline {
+	color: rgba(255, 255, 255, 0.4);
+	font-weight: 700;
+	margin-top: 23px;
+	margin-bottom: 10px;
+	line-height: 1.7;
+	font-size: 25px;
+}
+
+.container {
+	/* margin: auto;
+	width: 94%;
+	margin-top: 17px; */
+}
+
+a:link,
+a:visited {
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.both-sides {
+	padding-left: 75px;
+	padding-right: 75px;
+}
+/* ---------------------- */
+/* NAV BAR */
+/* ---------------------- */
+
+.nav-bar {
+	align-items: center;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.logo-branch,
+.link-info {
+	float: left;
+	margin-top: 16px;
+}
+
+.logo-branch {
+	margin-right: 80px;
+}
+
+.nav-bar a:link,
+.nav-bar a:visited {
+	margin-right: 40px;
+	font-size: 17px;
+}
+
+.nav-bar a:hover,
+.nav-bar a:active {
+	color: #adb5bd;
+}
+
+.nav-bar a:last-child {
+	margin-right: 0;
+}
+/* force to use id -- don't know why a.nav-bar overwrite .btn-white */
+#btn--white:link,
+#btn--white:visited {
+	color: #000;
+	background-color: #fff;
+	padding: 16px 18px;
+	border-radius: 5px;
+	font-weight: 600;
+}
+
+#btn--white:hover,
+#btn--white:active {
+	color: #000;
+	background-color: #adb5bd;
+	padding: 16px 18px;
+	border-radius: 5px;
+	font-weight: 600;
+}
+.link-signing {
+	float: right;
+}
+
+/* .btn--white {
+	background-color: #fff;
+	padding: 16px 18px;
+	border-radius: 5px;
+	font-weight: 600;
+} */
+
+/* ---------------------- */
+/* SECTION -- INTRO */
+/* ---------------------- */
+
+.container-one-two {
+	position: relative;
+}
+.section-intro {
+	text-align: center;
+	/* position: relative; */
+	/* padding-bottom: 160px; */
+	padding-top: 100px;
+}
+
+.headline-intro {
+	/* text-align: center; */
+	font-size: 70px;
+	line-height: 73px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-weight: 700;
+	letter-spacing: -6.6px;
+}
+
+.sub-head--intro {
+	text-align: center;
+	font-size: 30px;
+}
+
+.btn--red:link,
+.btn--red:visited {
+	font-size: 21px;
+	padding: 19px 30px 21px 30px;
+	margin-top: 60px;
+	border-radius: 6px;
+	font-weight: 600;
+	line-height: 1.1;
+	/* background-color: #ff4b2b; */
+	/* copycat gradient generator */
+	background: linear-gradient(
+		174deg,
+		rgba(255, 75, 43, 1) 0%,
+		rgba(255, 65, 108, 1) 70%
+	);
+}
+
+.for-student-intro:link,
+.for-student-intro:visited {
+	margin-top: 20px;
+	font-size: 16px;
+	/* text-align: center; */
+	margin-bottom: 90px;
+	display: block;
+}
+
+.large-arrow {
+	font-size: 28px;
+	margin-left: 8px;
+}
+
+.img-first-section {
+	width: 900px;
+	/* DELETE REMAINING SPACE AT BOTTOM */
+	vertical-align: middle;
+}
+
+.img-first-fixed {
+	width: 256px;
+	position: sticky;
+	top: 150px;
+	/* position: absolute;
+	top: 750px;
+	right: 100px; */
+
+	/* COMBACK LATER FOR POSITIONING */
+}
+
+.container-fixed-img {
+	position: absolute;
+	bottom: 100px;
+	right: 105px;
+	height: 1040px;
+	/* background-color: orangered; */
+}
+/* ---------------------- */
+/* SECTION -- FIXED IMG */
+/* ---------------------- */
+
+.section-fixed-img {
+	padding-top: 215px;
+	padding-bottom: 180px;
+	background-color: rgba(255, 255, 255, 0.05);
+}
+
+.container-section-fixed-column {
+	width: 50%;
+}
+
+.sub-healine-colorful {
+	color: #da77f2;
+	font-weight: 600;
+	margin-top: 0;
+}
+/* ---------------------- */
+/* SECTION -- FIELDS */
+/* ---------------------- */
+
+.section-fields {
+	text-align: center;
+	/* copy-cat from section-fixed-img */
+	padding-top: 215px;
+}
+
+.headline-center {
+	/* can set width to scale block_text; also remove full_space of "block" */
+	width: 640px;
+	/* inline-block: to remove pseudo-margin */
+	display: inline-block;
+	font-size: 60px;
+	line-height: 1.5;
+}
+
+.sub-headline--center {
+	display: inline-block;
+	width: 675px;
+	margin-bottom: 100px;
+}
+
+.bar-colorful {
+	width: 125px;
+	height: 5px;
+	margin: auto;
+	margin-bottom: 20px;
+	background-color: #ff4b2b;
+}
+
+.testimonial-card {
+	height: 400px;
+	/* (1287 - 75px*2 - 10px*4)/5 */
+	width: 215px;
+	float: left;
+	margin-right: 15px;
+	position: relative;
+}
+
+.testimonial-card img {
+	width: 100%;
+	height: 100%;
+	border-radius: 12px;
+	/* copycat to take "low fade" */
+	z-index: -1;
+}
+
+.testimonial-card:last-child {
+	margin-right: 0;
+}
+
+.container-field-text {
+	position: absolute;
+	bottom: 20px;
+	right: 12px;
+	left: 12px;
+	z-index: 3;
+}
+
+.testimonial-field {
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 1.5;
+	margin-bottom: 15px;
+}
+.testimonial-author {
+	font-size: 16px;
+	margin-bottom: 10px;
+	/* letter-spacing: 0; */
+}
+.testimonial-role {
+	font-size: 14px;
+	letter-spacing: -0.5px;
+	color: rgb(255, 255, 255, 0.3);
+}
+
+/* test area */
+.testimonial-card:after {
+	content: "";
+	display: block;
+	position: absolute;
+	border-radius: 12px;
+	bottom: -5px;
+	left: 0;
+	width: 100%;
+	height: 75%;
+	background: linear-gradient(
+		to bottom,
+		rgba(0, 0, 0, 0) 27%,
+		rgba(0, 0, 0) 90%
+	); /* W3C */
+}

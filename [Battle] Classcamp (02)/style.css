@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;600;700&display=swap");
+
+/*
+      SPACING SYSTEM (px)
+      2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+      FONT SIZE SYSTEM (px)
+      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+      */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Spartan;
+	background-color: rgba(0, 0, 5, 0.9);
+	color: #fff;
+	font-size: 16px;
+	letter-spacing: -1px;
+	font-weight: 600;
+}
+
+a:link,
+a:visited {
+	text-decoration: none;
+	color: #fff;
+}
+
+/* Header -- nav bar */
+.nav-bar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 95%;
+	margin: 24px auto;
+	margin-bottom: 100px;
+	/* padding-left: 40px;
+	padding-right: 40px; */
+}
+
+.nav-bar svg {
+	margin-right: 48px;
+}
+.nav-left {
+	flex-grow: 1;
+	display: flex;
+	gap: 24px;
+}
+.nav-right {
+	display: flex;
+	gap: 24px;
+	align-items: center;
+}
+
+.btn-white,
+.btn-red {
+	padding: 16px 12px;
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+.btn-white:link,
+.btn-white:visited {
+	color: #000;
+}
+
+/* Section 1 - intro */
+.background-intro {
+}
+.section-intro {
+	/* width: 70%;
+	margin: 0 auto; */
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 85%;
+	margin: 0 auto;
+}
+.headline-intro {
+	/* 48 / 64 / 80 / 96 */
+	/* / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+	font-size: 64px;
+	margin-bottom: 30px;
+}
+.sub-headline {
+	font-size: 30px;
+	margin-bottom: 62px;
+	font-weight: 600;
+	color: #adb5bd;
+}
+.btn-red {
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: #f03e3e;
+	margin-bottom: 30px;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.btn-red:link,
+.btn-red:visited {
+	font-size: 24px;
+	font-weight: 600;
+}
+.arrow-icon {
+	width: 24px;
+	height: 24px;
+}
+.for-student {
+}
+
+.center-img {
+	max-width: 900px;
+}

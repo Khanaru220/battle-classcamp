@@ -10,6 +10,7 @@ Learn:
 Practice: 
 - background-image:url(); 
 - background-size:contain;
+- order: in flexbox 2 columns
 
 
 Try:

@@ -15,6 +15,7 @@ Practice:
 Try:
 - gradient 
 - ionicon: add script line, and use <ion-icon> element
+- Technique to align only 1 items inside main axis flexbox -- margin-left: auto; to push element 
 
 
 Lack of: 

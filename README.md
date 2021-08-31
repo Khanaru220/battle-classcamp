@@ -2,6 +2,14 @@
 2 versions copy-cat the layout to train flex, grid, positioning
 https://www.classcamp.com/ 
 
+
+
+
+https://user-images.githubusercontent.com/74447462/131470664-c09dab9c-de01-4693-91a1-32aa2d50fcd3.mp4
+
+
+
+
 Learn:  
 - object-fit
 - build div.container to slide the skicky element
